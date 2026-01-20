@@ -24,7 +24,7 @@ function App() {
             Veja como estão suas finanças hoje.
           </Typography>
         </div>
-        <section>
+        <section className="grid grid-cols-2 items-stretch gap-6">
           <Card>
             <Card.Header>
               Orçamento diário disponível:
