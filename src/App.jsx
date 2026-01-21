@@ -5,6 +5,7 @@ import { DailyBudget } from "./components/DailyBudget"
 import { Main } from "./components/Main"
 import { SavingsStatus } from "./components/SavingsStatus"
 import { SearchInput } from "./components/Searchinput"
+import { Transactions } from "./components/Transactions"
 import { Typography } from "./components/Typography"
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
               Movimentação financeira
             </Card.Header>
             <Card.Body>
-              R$200
+              <Transactions />
             </Card.Body>
           </Card>
           <Card>
