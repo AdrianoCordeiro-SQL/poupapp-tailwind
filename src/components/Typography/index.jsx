@@ -6,7 +6,7 @@ const TAGS = {
 
 const VARIANT_CLASS = {
     body: 'm-0 text-neutral-text text-base leading-[120%]',
-    h1: 'm-0 text-neutral-text text-[31px] leading-[120%]',
+    h1: 'm-0 text-neutral-text text-[31px] leading-[120%] font-bold',
     h2:'m-0 text-neutral-text'
 }
 

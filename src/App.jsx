@@ -1,4 +1,5 @@
 import { Aside } from "./components/Aside"
+import { Banks } from "./components/Banks"
 import Card, { CardHeader } from "./components/Card"
 import { Container } from "./components/Container"
 import { DailyBudget } from "./components/DailyBudget"
@@ -55,7 +56,7 @@ function App() {
               Minhas contas
             </Card.Header>
             <Card.Body>
-              R$200
+              <Banks />
             </Card.Body>
           </Card>
         </section>
